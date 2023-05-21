@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Chifoumi</string>
+    <string name="authentification">Authentification </string>
+    <string name="inscription"> Inscription </string>
+    <string name="connection"> Déjà un compte ? Connectez-vous !</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="password">Mot de passe</string>
+    <string name="masculin">Homme</string>
+    <string name="femme">Femme</string>
+    <string name="adresseMail">exemple@exemple.com</string>
+    <string name="connect">Connexion</string>
+    <string name="signIn">Pas encore de compte ? Inscrivez-vous !</string>
+
+    <string name="rule1">1- Les ciseaux coupent le papier</string>
+    <string name="rule2">2- Le papier bat la pierre</string>
+    <string name="rule3">3- La pierre écrase le lézard</string>
+    <string name="rule4">4- Le lézard empoisonne  Spock</string>
+    <string name="rule5">5- Spock écrabouille les ciseaux</string>
+    <string name="rule6">6- Les ciseaux décapitent le lézard</string>
+    <string name="rule7">7- Le lézard mange le papier</string>
+    <string name="rule8">8- Le papier repousse Spock</string>
+    <string name="rule9">9- Spock détruit la pierre</string>
+    <string name="rule10">10- La pierre bat les ciseaux</string>
+
+    <string name="deconnexion">Déconnexion</string>
+    <string name="difficultes">Difficultés</string>
+    <string name="bienvenue">Bienvenue "joueur" </string>
+    <string name="jouer">Jouer</string>
+    <string name="score">Score : "score" </string>
+    <string name="classement">Classement</string>
+    <string name="regles">Règles</string>
+    <string name="confirmer_le_mode_de_passe">Confirmer mot de passe</string>
+    <string name="pas_encore_inscrit">Pas encore inscrit ?</string>
+</resources>

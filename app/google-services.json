@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "756710953284",
+    "firebase_url": "https://shifumi-1d90d.firebaseio.com",
+    "project_id": "shifumi-1d90d",
+    "storage_bucket": "shifumi-1d90d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756710953284:android:cb0a31eecd3ab8dec0c711",
+        "android_client_info": {
+          "package_name": "com.example.shifumi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756710953284-9lvuh36gu0nd0hlglhqcuim7ihvfjvec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shifumi",
+            "certificate_hash": "01989b916dc22ec7b02868a60762dc480d851eaf"
+          }
+        },
+        {
+          "client_id": "756710953284-a5rj714b5fdrr9jhgtfabi1vjqlgmhgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2lcsYLSTb0NFc91vuw6k9NU_dlZ3G8Ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756710953284-a5rj714b5fdrr9jhgtfabi1vjqlgmhgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

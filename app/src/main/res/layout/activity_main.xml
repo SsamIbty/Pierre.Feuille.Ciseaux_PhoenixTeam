@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="Choose your move!"
+        android:textSize="34sp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/resultTextView"
+        android:layout_marginTop="180dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/playerChoiceImageView"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="2dp"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:id="@+id/playerChoiceImageView2"
+            android:layout_width="190dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/chifoumi" />
+
+        <ImageView
+            android:id="@+id/computerChoiceImageView"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="2dp"
+            android:src="@drawable/ic_launcher_foreground" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playerChoiceImageView"
+        android:layout_marginTop="600dp"
+        android:gravity="center_horizontal"
+        tools:ignore="NotSibling">
+
+        <Button
+            android:id="@+id/rockButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/rock" />
+
+        <Button
+            android:id="@+id/paperButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/paper" />
+
+        <Button
+            android:id="@+id/scissorsButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/scissors" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/scissorsButton"
+        android:layout_marginTop="230dp"
+        android:text="Score: 0 - 0"
+        android:textSize="24sp"
+        tools:ignore="NotSibling" />
+
+</RelativeLayout>
